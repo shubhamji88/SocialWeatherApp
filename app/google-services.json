@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "124712080717",
+    "firebase_url": "https://nofap-media.firebaseio.com",
+    "project_id": "nofap-media",
+    "storage_bucket": "nofap-media.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124712080717:android:27d73514731a1ff6469304",
+        "android_client_info": {
+          "package_name": "com.example.nofapmedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124712080717-l4l066sanpbia662c9dr8tnu6e05reb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGyW1uRlhv2thtCGwffSypMbsRR4l0M4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124712080717-l4l066sanpbia662c9dr8tnu6e05reb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
