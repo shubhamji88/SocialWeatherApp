@@ -21,7 +21,7 @@ private val retrofit= Retrofit.Builder()
     .client(okHttp)
     .build()
 interface ApiService{
-    @GET("data/2.5/weather?q=delhi,in&units=metric&appid=33b00d9b3c7d2932e9ea361d4c0e3482")
+    @GET("data/2.5/weather?q=delhi,in&units=metric&appid=")
     fun getWeather(): Deferred<WeatherResponse>
 }
 object WeatherApi{
