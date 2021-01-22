@@ -7,7 +7,7 @@ It is an Social media for sharing your current weather and tell the world that c
 3. Create Post (Fetces weather details from https://api.openweathermap.org/ and has button for creating its post)
 
 ## Screenshots
-![Screenshot_20210122-230353_Social Weather](https://user-images.githubusercontent.com/56815364/105528822-78582c80-5d0b-11eb-892b-7dd7e511bac2.jpg)
+![Screenshot_20210122-235135_Social Weather](https://user-images.githubusercontent.com/56815364/105529840-0254c500-5d0d-11eb-9b9a-0ae9314c7a49.jpg)
 ![Screenshot_20210122-230527_Social Weather](https://user-images.githubusercontent.com/56815364/105528828-79895980-5d0b-11eb-8a00-50efe4ad8106.jpg)
 ![Screenshot_20210122-230457_Social Weather](https://user-images.githubusercontent.com/56815364/105528838-7c844a00-5d0b-11eb-9044-262e30395ad1.jpg)
 
