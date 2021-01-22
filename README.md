@@ -18,7 +18,7 @@ Before you begin, you should have already downloaded the Android Studio SDK and 
 
 ## Building the Code
 
-1. Clone the repository using HTTP: git clone https://github.com/shubhamji88/Newspaper
+1. Clone the repository using HTTP: git clone https://github.com/shubhamji88/SocialWeatherApp
 
 2. Open Android Studio.
 
