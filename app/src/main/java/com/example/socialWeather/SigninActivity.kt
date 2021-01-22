@@ -43,7 +43,6 @@ class SignInActivity : AppCompatActivity() {
         auth = Firebase.auth
 
         signInButton.setOnClickListener {
-            signInButton.visibility = View.GONE
 //            progressBar.visibility = View.VISIBLE
             signIn()
 
@@ -107,7 +106,7 @@ class SignInActivity : AppCompatActivity() {
             startActivity(mainActivityIntent)
             finish()
         } else {
-            signInButton.visibility = View.VISIBLE
+//            signInButton.visibility = View.VISIBLE
 //            progressBar.visibility = View.GONE
         }
     }
