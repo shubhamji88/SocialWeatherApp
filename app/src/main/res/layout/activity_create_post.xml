@@ -9,7 +9,7 @@ android:orientation="vertical"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:padding="25dp"
-android:background="@drawable/bg_gradient">
+android:background="@drawable/grad">
 <RelativeLayout
         android:id="@+id/mainContainer"
         android:layout_width="362dp"
@@ -174,7 +174,7 @@ android:background="@drawable/bg_gradient">
                         android:id="@+id/sunset"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="06:40 AM"
+                        android:text="07:05 PM"
                         android:textSize="14dp" />
                 </LinearLayout>
 
@@ -350,7 +350,7 @@ android:background="@drawable/bg_gradient">
         android:layout_height="91dp"
 
         android:layout_below="@+id/mainContainer"
-        android:layout_marginTop="19dp">
+        android:layout_marginTop="42dp">
 
         <Button
             android:id="@+id/post"
@@ -365,8 +365,6 @@ android:background="@drawable/bg_gradient">
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 
 
 </RelativeLayout>

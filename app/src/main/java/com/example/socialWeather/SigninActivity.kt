@@ -33,7 +33,7 @@ class SignInActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
-
+        supportActionBar?.hide()
         // Configure Google Sign In
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id))
@@ -44,7 +44,7 @@ class SignInActivity : AppCompatActivity() {
 
         signInButton.setOnClickListener {
             signInButton.visibility = View.GONE
-            progressBar.visibility = View.VISIBLE
+//            progressBar.visibility = View.VISIBLE
             signIn()
 
         }
@@ -108,7 +108,7 @@ class SignInActivity : AppCompatActivity() {
             finish()
         } else {
             signInButton.visibility = View.VISIBLE
-            progressBar.visibility = View.GONE
+//            progressBar.visibility = View.GONE
         }
     }
 }

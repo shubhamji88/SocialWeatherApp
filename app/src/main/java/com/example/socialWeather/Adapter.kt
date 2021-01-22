@@ -21,34 +21,34 @@ class PostAdapter(options: FirestoreRecyclerOptions<Post>,val listner: IPostAdap
         val postText2: TextView = itemView.findViewById(R.id.post2nd)
         val userText: TextView = itemView.findViewById(R.id.userName)
         val createdAt: TextView = itemView.findViewById(R.id.createdAt)
-        val likeCount: TextView = itemView.findViewById(R.id.likeCount)
+//        val likeCount: TextView = itemView.findViewById(R.id.likeCount)
         val userImage: ImageView = itemView.findViewById(R.id.userImage)
-        val likeButton: ImageView = itemView.findViewById(R.id.likeButton)
+//        val likeButton: ImageView = itemView.findViewById(R.id.likeButton)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostViewHolder {
         val postViewHolder = PostViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_post, parent, false))
-        postViewHolder.likeButton.setOnClickListener {
-            listner.onLikeClicked(snapshots.getSnapshot(postViewHolder.adapterPosition).id)
-        }
+//        postViewHolder.likeButton.setOnClickListener {
+//            listner.onLikeClicked(snapshots.getSnapshot(postViewHolder.adapterPosition).id)
+//        }
         return postViewHolder
     }
 
     override fun onBindViewHolder(holder: PostViewHolder, position: Int, model: Post) {
-        holder.postText.text = "Current Temp: "+model.temp+"°C"
-        holder.postText2.text="Min Temp: "+model.mintem+"°C "+"Max Temp: "+model.maxtem+"°C "
-        holder.userText.text = model.createdby.displatName
+        holder.postText.text = "Location: "+model.loc+"  Current Temp: "+model.temp+"°C"
+        holder.postText2.text="Min Temp: "+model.mintem+"°C  "+"Max Temp: "+model.maxtem+"°C "
+        holder.userText.text = model.createdby.displayName
         Glide.with(holder.userImage.context).load(model.createdby.imgurl).circleCrop().into(holder.userImage)
-            holder.likeCount.text=model.likedBy.size.toString()
+//            holder.likeCount.text=model.likedBy.size.toString()
         holder.createdAt.text = Utils.getTimeAgo(model.createdAt)
-        val auth = Firebase.auth
-        val currentUserId = auth.currentUser!!.uid
-        val isLiked = model.likedBy.contains(currentUserId)
-        if(isLiked) {
-            holder.likeButton.setImageDrawable(ContextCompat.getDrawable(holder.likeButton.context, R.drawable.ic_like))
-        } else {
-            holder.likeButton.setImageDrawable(ContextCompat.getDrawable(holder.likeButton.context, R.drawable.ic_unlike))
-        }
+//        val auth = Firebase.auth
+//        val currentUserId = auth.currentUser!!.uid
+//        val isLiked = model.likedBy.contains(currentUserId)
+//        if(isLiked) {
+//            holder.likeButton.setImageDrawable(ContextCompat.getDrawable(holder.likeButton.context, R.drawable.ic_like))
+//        } else {
+//            holder.likeButton.setImageDrawable(ContextCompat.getDrawable(holder.likeButton.context, R.drawable.ic_unlike))
+//        }
 
     }
 

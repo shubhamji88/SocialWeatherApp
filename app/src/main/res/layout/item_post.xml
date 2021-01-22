@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
 
-        android:layout_height="178dp"
+        android:layout_height="wrap_content"
         android:padding="16dp">
 
         <ImageView
@@ -63,22 +63,22 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/postTitle" />
 
-        <ImageView
-            android:id="@+id/likeButton"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_marginTop="8dp"
-            app:layout_constraintLeft_toLeftOf="@id/postTitle"
-            app:layout_constraintTop_toBottomOf="@+id/post2nd" />
+<!--        <ImageView-->
+<!--            android:id="@+id/likeButton"-->
+<!--            android:layout_width="24dp"-->
+<!--            android:layout_height="24dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            app:layout_constraintLeft_toLeftOf="@id/postTitle"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/post2nd" />-->
 
-        <TextView
-            android:id="@+id/likeCount"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="6dp"
-            app:layout_constraintBottom_toBottomOf="@id/likeButton"
-            app:layout_constraintLeft_toRightOf="@id/likeButton"
-            app:layout_constraintTop_toTopOf="@id/likeButton" />
+<!--        <TextView-->
+<!--            android:id="@+id/likeCount"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="6dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="@id/likeButton"-->
+<!--            app:layout_constraintLeft_toRightOf="@id/likeButton"-->
+<!--            app:layout_constraintTop_toTopOf="@id/likeButton" />-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

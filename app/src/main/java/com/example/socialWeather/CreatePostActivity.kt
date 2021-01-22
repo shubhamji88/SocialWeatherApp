@@ -23,7 +23,7 @@ class CreatePostActivity : AppCompatActivity() {
         setContentView(R.layout.activity_create_post)
         val binding=DataBindingUtil.setContentView<ActivityCreatePostBinding>(this,R.layout.activity_create_post)
         postDao= PostDao()
-
+        supportActionBar?.hide()
         GlobalScope.launch {
             weather=WeatherApi.retrifitService.getWeather().await()
             withContext(Dispatchers.Main){

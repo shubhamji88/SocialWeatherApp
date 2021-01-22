@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity(), PostAdapter.IPostAdapter {
     private lateinit var postDao: PostDao
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        actionBar?.hide()
         setContentView(R.layout.activity_main)
         fab.setOnClickListener {
             val intent = Intent(this,CreatePostActivity::class.java)

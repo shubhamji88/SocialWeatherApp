@@ -31,7 +31,5 @@ class Utils {
                 (diff / DAY_MILLIS).toString() + " days ago"
             }
         }
-
-
     }
 }

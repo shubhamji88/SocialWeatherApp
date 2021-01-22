@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "124712080717-i70gkhqi3kbq3c10rhrhotco6n2ct731.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nofapmedia",
+            "certificate_hash": "2f0a8b0773b694d95df2c4c24d17e2a1591a20f7"
+          }
+        },
+        {
           "client_id": "124712080717-l4l066sanpbia662c9dr8tnu6e05reb9.apps.googleusercontent.com",
           "client_type": 3
         }
