@@ -4,7 +4,7 @@ It is an Social media for sharing your current weather and tell the world that c
 ## About
 1. SignIn using Firebase Auth
 2. Post Page (Fetches post Data from Firebase firestore and shows it in recycler view)
-3. Create Post (Fetces weather details from https://api.openweathermap.org/ and has button for creating its post)
+3. Create Post (Receives weather details from https://api.openweathermap.org/ and has button for creating its post)
 
 ## Screenshots
 ![Screenshot_20210122-235135_Social Weather](https://user-images.githubusercontent.com/56815364/105529840-0254c500-5d0d-11eb-9b9a-0ae9314c7a49.jpg)
